@@ -17,6 +17,7 @@ Registrar as aulas de paradigmas de programação
 1. Data da atividade - 19/09/2025
     ```
     Para esta atividade, vocês devem utilizar o que já vimos até agora.
+    
     Utilizando de uma proposta própria de solução ou do conceito de "Rastro de Nomes" você deve criar seu projeto.
 
     O projeto deve conter, pelo menos:2 Iterações (Loops) do Vetor;
