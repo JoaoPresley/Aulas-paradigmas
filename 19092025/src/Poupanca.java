@@ -1,14 +1,14 @@
 import java.time.LocalDate;
 
-public class Poupança extends Conta{
+public class Poupanca extends Conta{
     private double taxa_redimento_mes;
     private int mes_aplicacao;
-    public Poupança(String nome, double saldo, int mes_aplicacao){
+    public Poupanca(String nome, double saldo, int mes_aplicacao){
         super(nome, saldo);
         this.taxa_redimento_mes = 0.005;
         this.mes_aplicacao = mes_aplicacao;
     }
-    public Poupança(String nome, double saldo){
+    public Poupanca(String nome, double saldo){
         this(nome, saldo, 3);
     }
 
@@ -16,6 +16,8 @@ public class Poupança extends Conta{
         this.taxa_redimento_mes = taxa_redimento;
     }
     private void updateSaldo(){
-        ;
+        int tempo = LocalDate.now().getMonthValue()-this.mes_aplicacao;
+        double taxa = tempo*taxa_redimento_mes;
+        setSaldo(getSaldo()*taxa);
     }
 }
