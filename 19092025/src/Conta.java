@@ -3,6 +3,7 @@ public class Conta {
     private double Saldo;
     private double Credito;
 
+    //Método construtor
     public Conta(String nome, double Saldo){
         this.nome = nome;
         this.Saldo = Saldo;
@@ -24,4 +25,5 @@ public class Conta {
     public String getNome(){return this.nome;}
     public Double getSaldo(){return this.Saldo;}
     public Double getCredito(){return this.Credito;}
+    public void setSaldo(double valor){this.Saldo = valor;}
 }
