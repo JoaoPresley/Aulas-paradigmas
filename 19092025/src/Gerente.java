@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Gerente {
-    private List<Conta> contas = new ArrayList<>();
+    private List<Conta> contas = new ArrayList<>();//Gerente possui acesso a várias contas
 
-    public void addConta(String nome, double SaldoInicial){
-        Conta novaConta = new Conta(nome, SaldoInicial);
+    public void addConta(Conta novaConta){
+        //Conta novaConta = new Conta(nome, SaldoInicial);
         this.contas.add(novaConta);
     }
 
