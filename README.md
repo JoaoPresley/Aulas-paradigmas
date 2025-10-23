@@ -39,25 +39,25 @@ Registrar as aulas de paradigmas de programação
 UCDB
 
 * Exercício 1 - O que é encapsulamento em Orientação a Objetos?
-    :white_check_mark: a) O processo de dividir uma classe em vários métodos
-    b) O ato de expor todos os atributos de uma classe
-    c) A proteção de dados internos e a exposição controlada por métodos públicos
-    d) A criação de múltiplas instâncias de um mesmo objeto
+    :x: a) O processo de dividir uma classe em vários métodos
+    :x: b) O ato de expor todos os atributos de uma classe
+    :white_check_mark: c) A proteção de dados internos e a exposição controlada por métodos públicos
+    :x: d) A criação de múltiplas instâncias de um mesmo objeto
 * Exercício 2 - A herança é usada para:
-    a) Reutilizar código e criar classes especializadas a partir de classes base
-    b) Esconder atributos de outras classes
-    c) Executar o mesmo método com assinaturas diferentes
-    d) Substituir a composição entre classes
+    :white_check_mark: a) Reutilizar código e criar classes especializadas a partir de classes base
+    :x: b) Esconder atributos de outras classes
+    :x: c) Executar o mesmo método com assinaturas diferentes
+    :x: d) Substituir a composição entre classes
 * Exercício 3 - O polimorfismo permite:
-    a) Criar várias classes com o mesmo nome
-    b) Que objetos de classes diferentes respondam de maneiras distintas ao mesmo método
-    c) Que métodos acessem variáveis privadas
-    d) Que uma classe tenha vários construtores obrigatórios
+    :x: a) Criar várias classes com o mesmo nome
+    :white_check_mark: b) Que objetos de classes diferentes respondam de maneiras distintas ao mesmo método
+    :x: c) Que métodos acessem variáveis privadas
+    :x: d) Que uma classe tenha vários construtores obrigatórios
 * Exercício 4 - Em UML, qual símbolo representa um atributo privado?
-    a) +
-    b) #
-    c) -
-    d) *
+    :x: a) +
+    :x: b) #
+    :white_check_mark: c) -
+    :x: d) *
 * Exercício 5 - Crie uma classe Pessoa com atributos nome e idade.
     Implemente um método apresentar() que exiba:
         Olá, meu nome é <nome> e tenho <idade> anos.
