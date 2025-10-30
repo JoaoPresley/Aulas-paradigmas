@@ -4,7 +4,7 @@ public class Poupanca extends Conta{
     private double taxa_redimento_mes;
     private int mes_aplicacao;
     public Poupanca(String nome, double saldo, int mes_aplicacao){
-        super(nome, saldo);
+        super(nome+"_pupanca", saldo);
         this.taxa_redimento_mes = 0.005;
         this.mes_aplicacao = mes_aplicacao;
     }
