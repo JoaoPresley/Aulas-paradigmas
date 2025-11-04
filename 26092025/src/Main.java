@@ -1,3 +1,8 @@
+
+
+
+
+
 /*
 Para esta atividade, vocês devem utilizar o que já vimos até agora.
 
@@ -14,8 +19,14 @@ public class Main {
 
     }
     public static void ordena_buble(String []vetor){
-        for (int i=0; i<vetor.length; i++){
-
+        //int j = vetor.length - 1; //valor do ultimo indice
+        //fez a primeira troca
+        for(int j=vetor.length-1; j>0; j--){
+            for (int i=0; i<vetor.length; i++){
+                if (vetor[i].compareTo(vetor[i+1]) >= 0 && i<j){
+                    swap(vetor, i, i+1);
+                }
+            }
         }
     }
     public static void ordena_insertion(){
@@ -23,5 +34,10 @@ public class Main {
     }
     public static void ordena_selection(){
 
+    }
+    public static void swap(String [] vetor, int p1, int p2){
+        String temp = vetor[p1];
+        vetor[p1] = vetor[p2];
+        vetor[p2] = temp;
     }
 }
